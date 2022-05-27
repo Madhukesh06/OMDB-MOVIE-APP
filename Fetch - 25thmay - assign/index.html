@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch</title>
+    
+    <style>
+         #cont{
+            /* border: 0.2rem solid red; */
+             width: 20rem;
+             margin: auto; 
+             margin-top: 2rem;
+             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+             padding: 0.5rem;
+             border-radius: 0.4rem;
+        } 
+        img{
+            width: 100%; 
+            height: 20rem; 
+        }
+        h1,h3,h4{
+            line-height: 0.6rem;
+        }
+        #ap{
+            padding: 0.4rem;
+            font-size: 1.2rem;
+            border-radius: 0.5rem;
+            border: 0.2rem solid black;
+            width: 15rem;
+            text-align: center;
+        }
+        #btn{
+            padding: 0.2rem;
+            font-size: 1.2rem;
+            border-radius: 0.4rem;
+            border: 0.2rem solid teal;
+            cursor: pointer;
+            background-color: teal;
+            color: white;
+        }
+        #btn:hover{
+            background-color: black;
+            color: white;
+            border: 0.2rem solid black;
+        }
+        #box{
+            display: flex;
+            width: 22rem;
+            margin: auto;
+            justify-content: space-between;
+            margin-top: 2rem;
+        }
+
+        #rec{
+            background-color:teal ;
+            color: white;
+            border-radius: 0.2rem;
+            border:0.2rem solid teal ;
+            cursor: pointer;
+            padding: 0.3rem;
+        }
+        #rec:hover{
+            background-color:black ;
+            color: white;  
+            border-radius: 0.2rem;
+            border:0.2rem solid black ;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="box">
+        <input type="text" placeholder="Enter Movie Name" id="ap">
+        <button id="btn" onclick="movieSearch()">Search</button>
+    </div>
+
+    <div id="cont">
+        <!-- data to append -->
+    </div>
+</body>
+</html>
+
+<script src="javapart.js"></script>
